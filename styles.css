@@ -298,8 +298,6 @@ p {
 .module-grid,
 .author-grid,
 .objectives-grid,
-.figure-grid,
-.video-grid,
 .footer-grid,
 .cards {
   display: grid;
