@@ -1,0 +1,25 @@
+reward:
+  goal_bonus:  30.0
+  progress_scale:  2.5
+  time_penalty: -0.05
+  collision_penalty: -15.0
+  ang_vel_penalty_scale: -0.15
+  reverse_vel_penalty: -0.05
+  safe_dist: 0.40
+  obstacle_penalty_scale: -0.5
+
+environment:
+  dt: 0.1
+  max_steps: 500
+  n_scan: 100
+  v_max: 0.8
+  w_max: 1.5
+  goal_threshold: 0.50
+  collision_threshold: 0.20
+  scan_range_min: 0.12
+  scan_range_max: 10.0
+  max_goal_dist: 20.0
+  min_goal_dist: 2.0
+  robot_name: robot
+  goals_path: params/small_house_goals_train.yaml
+  starts_path: params/small_house_starts_train.yaml

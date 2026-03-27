@@ -1,0 +1,4 @@
+episodes: 100
+success_rate: 0.37
+collision_rate: 0.55
+mean_reward: -9.56889533996582

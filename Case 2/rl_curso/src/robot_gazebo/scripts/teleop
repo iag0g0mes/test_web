@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+GUI=false
+TOPIC="/robot/cmd_vel"
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --gui) GUI=true; shift ;;
+    --topic) TOPIC="$2"; shift 2 ;;
+    *) echo "Usage: teleop [--gui] [--topic /robot/cmd_vel]"; exit 2 ;;
+  esac
+done
+
+if $GUI; then
+  exec ros2 run rqt_robot_steering rqt_robot_steering
+else
+  exec ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r "cmd_vel:=${TOPIC}"
+fi

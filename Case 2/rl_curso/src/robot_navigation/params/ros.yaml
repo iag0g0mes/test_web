@@ -1,0 +1,10 @@
+robot_navigation_node:
+  ros__parameters:
+    use_sim_time: true
+    scan_topic: /robot/scan
+    odom_topic: /robot/odom
+    cmd_vel_topic: /robot/cmd_vel
+    set_state_service: /set_entity_state
+    reset_world_service: /reset_world
+
+    env_config: params/small_house_config_train.yaml
