@@ -1,2 +1,0 @@
-global_step,episode,episode_reward,episode_len,success,collision,mean_dist,final_dist
-13,1,-17.247510,13,0,1,15.992118,15.765850
