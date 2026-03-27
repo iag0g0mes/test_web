@@ -58,11 +58,11 @@ CATKIN_IGNORE
 
 #ROS
 
-Case 2/rl_tutorial/install
-Case 2/rl_curso/install
+Case2/rl_tutorial/install
+Case2/rl_curso/install
 
-Case 2/rl_tutorial/build
-Case 2/rl_curso/build
+Case2/rl_tutorial/build
+Case2/rl_curso/build
 
-Case 2/rl_tutorial/log
-Case 2/rl_curso/log
+Case2/rl_tutorial/log
+Case2/rl_curso/log
